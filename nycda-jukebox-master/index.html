@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jukebox!</title>
+		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+		<script src="./js/jquery-3.2.0.min.js"></script>
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<div class="jukebox">
+			<div class="jukebox-header">
+				<div class="jukebox-header-logo"></div>
+				<input class="jukebox-header-upload" type="file"/>
+			</div>
+			<div class="jukebox-songs"></div>
+			<div class="jukebox-controls">
+				<button class="jukebox-controls-btn jukebox-controls-previous">Previous</button>
+				<button class="jukebox-controls-btn jukebox-controls-play">Play</button>
+				<button class="jukebox-controls-btn jukebox-controls-stop">Stop</button>
+				<button class="jukebox-controls-btn jukebox-controls-next">Next</button>
+			    <button class="shuffle">Shuffle</button>
+			    
+			    <label>Volume:<input type="range" min="0" max="100" value="100" id="myRange" class = "jukebox-controls-btn jukebox-controls-mute"/></label>
+			   
+			</div>
+		</div>
+	</body>
+</html>
